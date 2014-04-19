@@ -7,12 +7,17 @@
 	</url>
 
 	<url>
-			<loc>http://grads.algonquindesign.ca/2012</loc>
+			<loc>http://grads.algonquindesign.ca/2012/</loc>
 			<changefreq>yearly</changefreq>
 	</url>
 
 	<url>
-			<loc>http://grads.algonquindesign.ca/2013</loc>
+			<loc>http://grads.algonquindesign.ca/2013/</loc>
+			<changefreq>yearly</changefreq>
+	</url>
+
+	<url>
+			<loc>http://grads.algonquindesign.ca/2014/</loc>
 			<changefreq>yearly</changefreq>
 	</url>
 
