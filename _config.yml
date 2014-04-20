@@ -1,5 +1,5 @@
 markdown: redcarpet
 baseurl: ""
-exclude: ['README.md', 'CNAME', 'next-year-template', 'assets', 'bio-test.html']
+exclude: ['README.md', 'CNAME']
 
 cdn: //grads.images.algonquindesign.ca

@@ -58,7 +58,7 @@
 	background-position: top;
 	background-repeat:no-repeat;
 	background-size: 100%;
-	background-image: url(../img/hearts.png);
+	/*background-image: url(../img/hearts.png);*/
 	width: 6em;
 	margin: 0 1em;
 	display: inline;

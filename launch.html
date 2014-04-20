@@ -41,26 +41,26 @@ layout: launch
 		</div>
 </div>
 
+<script src="{{site.baseurl}}/js/base.js"></script>
+<script src="{{site.baseurl}}/js/flipclock.js"></script>
+<script src="{{site.baseurl}}/js/dailycounter.js"></script>
+<script>
+	var clock;
 
+	$(document).ready(function() {
+		// Grab the current date
+		var currentDate = new Date();
 
+		// Set some date in the future. In this case, it's always Jan 1
+		var futureDate  = new Date(2014, 2, 13, 17);
 
-	<script type="text/javascript">
-			var clock;
+		// Calculate the difference in seconds between the future and current date
+		var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
-			$(document).ready(function() {
-				// Grab the current date
-				var currentDate = new Date();
-
-				// Set some date in the future. In this case, it's always Jan 1
-				var futureDate  = new Date(2014, 2, 13, 17);
-
-				// Calculate the difference in seconds between the future and current date
-				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-				// Instantiate a coutdown FlipClock
-				clock = $('.clock').FlipClock(diff, {
-					clockFace: 'DailyCounter',
-					countdown: true
-				});
-			});
-		</script>
+		// Instantiate a coutdown FlipClock
+		clock = $('.clock').FlipClock(diff, {
+			clockFace: 'DailyCounter',
+			countdown: true
+		});
+	});
+</script>

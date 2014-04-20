@@ -1,6 +1,6 @@
-# Graphic Design Grads
+# 2014 Graphic Design Grads
 
-Project for all of the grad websites of the Algonquin College Graphic Design program.
+Project for the grad website of the Algonquin College Graphic Design program.
 
 ---
 
