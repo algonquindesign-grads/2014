@@ -45,3 +45,4 @@ _site
 *.oga
 *.ogg
 *.opus
+.DS_Store
